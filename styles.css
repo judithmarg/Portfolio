@@ -10,5 +10,9 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    background-color:rgba(218, 187, 120, 0.856);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
