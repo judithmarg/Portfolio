@@ -9,10 +9,67 @@
 #navbar{
     position: fixed;
     top: 0;
-    width: 100%;
-    background-color:rgba(218, 187, 120, 0.856);
+    width: 100vw;
+    background-color:rgb(102, 182, 175);
     height: 70px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+    margin: 0 40px 0 20px;
+    font-family: 'Salsa', cursive;
+    font-size: large;
+}
+
+#welcome-section{
+    background: linear-gradient(45deg, rgb(33, 51, 49), rgb(17, 27, 26));
+    top:0;
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+}
+#welcome-section h1{
+    color: white;
+    font-family: 'Cookie', cursive;
+    font-size: 5em;
+    padding-top: 30vh;
+}
+#welcome-section h3{
+    color: rgb(209, 202, 139);
+    font-family: 'Inter', cursive;
+    font-size: 2em;
+}
+
+#projects{
+    background-color: rgb(70, 99, 97);
+    margin: 0;
+    width: 100vw;
+}
+
+.projects-flex{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100vw;
+}
+#projects h2{
+    color:  rgb(17, 27, 26);
+    font-family: 'Cookie', cursive;
+    font-size: 3em;
+    padding-top:20vh;
+    padding-bottom: 3vh;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0;
+    flex-direction: column;
+}
+
+section{
+    height:100px;
+    
 }
