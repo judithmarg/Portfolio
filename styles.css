@@ -164,3 +164,13 @@ span{
 #contact a:hover{
     top: 10px;
 }
+
+.last-things{
+    width: 90vw;
+    border-top: rgb(184, 58, 58) solid 2.5px; 
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 50px ;
+}
