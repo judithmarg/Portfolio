@@ -45,8 +45,10 @@
 
 #projects{
     background-color: rgb(70, 99, 97);
-    margin: 0;
     width: 100vw;
+    padding: 5vh 0 5vh 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .projects-flex{
@@ -100,10 +102,15 @@ span{
 .redirecting{
     color: aliceblue;
     font-family: 'Salsa', cursive;
-    margin-left: 50%;
+    margin-left: calc(50% - 50px);
     margin-top: 40px;
     margin-bottom: 20px;
     text-decoration: none;
     background-color: rgb(102, 182, 175);
     padding: 10px;
+    width: 80px;
+}
+
+.redirecting:hover{
+    background-color: rgb(59, 158, 152);
 }
