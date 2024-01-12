@@ -1,3 +1,7 @@
+:root{
+    --salsa-font: 'Salsa', cursive;
+}
+
 @media (max-width: 787px){
 
 }
@@ -20,7 +24,7 @@
     text-decoration: none;
     color: white;
     margin: 0 40px 0 20px;
-    font-family: 'Salsa', cursive;
+    font-family: var(--salsa-font);
     font-size: large;
 }
 
@@ -94,14 +98,14 @@ section img{
 
 span{
     color:aliceblue;
-    font-family: 'Salsa', cursive;
+    font-family: var(--salsa-font);
     text-decoration: none;
     font-size: 1.3rem;
 }
 
 .redirecting{
     color: aliceblue;
-    font-family: 'Salsa', cursive;
+    font-family: var(--salsa-font);
     margin-left: calc(50% - 50px);
     margin-top: 40px;
     margin-bottom: 20px;
@@ -113,4 +117,50 @@ span{
 
 .redirecting:hover{
     background-color: rgb(59, 158, 152);
+}
+
+#contact{
+    background-color:  rgb(17, 27, 26);
+    font-family: var(--salsa-font);
+    width: 100vw;
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    align-items: center ;
+    
+}
+
+#contact h1{
+    font-size: 3em;
+    padding-top: 20vh;
+    padding-bottom: 1vh;
+    text-align: center;
+    margin: 0;
+}
+#contact p{
+    font-size: 1.5em;
+    color:rgb(156, 167, 177);
+}
+
+#contact ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#contact li{
+    font-size: 1.5em;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+#contact a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    transition: top 0.5s ease;
+}
+#contact a:hover{
+    top: 10px;
 }
