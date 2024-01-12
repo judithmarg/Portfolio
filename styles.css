@@ -1,22 +1,23 @@
-:root{
+:root {
     --salsa-font: 'Salsa', cursive;
 }
 
-#welcome-section{
+#welcome-section {
     height: 100vh;
 }
 
-#navbar{
+#navbar {
     position: fixed;
     top: 0;
     width: 100vw;
-    background-color:rgb(102, 182, 175);
+    background-color: rgb(102, 182, 175);
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: right;
 }
-#navbar a{
+
+#navbar a {
     text-decoration: none;
     color: white;
     margin: 0 40px 0 20px;
@@ -24,26 +25,28 @@
     font-size: large;
 }
 
-#welcome-section{
+#welcome-section {
     background: linear-gradient(45deg, rgb(33, 51, 49), rgb(17, 27, 26));
-    top:0;
+    top: 0;
     width: 100vw;
     text-align: center;
     margin: 0;
 }
-#welcome-section h1{
+
+#welcome-section h1 {
     color: white;
     font-family: 'Cookie', cursive;
     font-size: 5em;
     padding-top: 30vh;
 }
-#welcome-section h3{
+
+#welcome-section h3 {
     color: rgb(209, 202, 139);
     font-family: 'Inter', cursive;
     font-size: 2em;
 }
 
-#projects{
+#projects {
     background-color: rgb(70, 99, 97);
     width: 100vw;
     padding: 5vh 0 5vh 0;
@@ -51,7 +54,7 @@
     flex-direction: column;
 }
 
-.projects-flex{
+.projects-flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -59,11 +62,12 @@
     margin: auto 10vw auto 10vw;
     justify-content: center;
 }
-#projects h2{
-    color:  rgb(17, 27, 26);
+
+#projects h2 {
+    color: rgb(17, 27, 26);
     font-family: 'Cookie', cursive;
     font-size: 3em;
-    padding-top:20vh;
+    padding-top: 20vh;
     padding-bottom: 3vh;
     text-align: center;
     text-decoration: underline;
@@ -71,13 +75,14 @@
     flex-direction: column;
 }
 
-section{
+section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+
 }
-section div{
+
+section div {
     width: 400px;
     margin: 10px;
     background: linear-gradient(45deg, rgb(33, 51, 49), rgb(17, 27, 26));
@@ -85,20 +90,20 @@ section div{
     text-align: center;
 }
 
-section img{
-    height:300px;
+section img {
+    height: 300px;
     width: 400px;
     background: linear-gradient(45deg, rgb(33, 51, 49), rgb(17, 27, 26));
 }
 
-span{
-    color:aliceblue;
+span {
+    color: aliceblue;
     font-family: var(--salsa-font);
     text-decoration: none;
     font-size: 1.3rem;
 }
 
-.redirecting{
+.redirecting {
     color: aliceblue;
     font-family: var(--salsa-font);
     margin-left: calc(50% - 50px);
@@ -110,76 +115,78 @@ span{
     width: 80px;
 }
 
-.redirecting:hover{
+.redirecting:hover {
     background-color: rgb(59, 158, 152);
 }
 
-#contact{
-    background-color:  rgb(17, 27, 26);
+#contact {
+    background-color: rgb(17, 27, 26);
     font-family: var(--salsa-font);
     width: 100vw;
     display: flex;
     color: aliceblue;
     flex-direction: column;
-    align-items: center ;
-    
+    align-items: center;
+
 }
 
-#contact h1{
+#contact h1 {
     font-size: 3em;
     padding-top: 20vh;
     padding-bottom: 1vh;
     text-align: center;
     margin: 0;
 }
-#contact p{
+
+#contact p {
     font-size: 1.5em;
-    color:rgb(156, 167, 177);
+    color: rgb(156, 167, 177);
 }
 
-#contact ul{
+#contact ul {
     list-style: none;
     padding: 0;
     display: flex;
     flex-direction: row;
 }
 
-#contact li{
+#contact li {
     font-size: 1.5em;
     flex-direction: row;
     margin-right: 50px;
 }
 
-#contact a{
-    color:rgb(255, 255, 255);
+#contact a {
+    color: rgb(255, 255, 255);
     text-decoration: none;
     position: relative;
     transition: top 0.5s ease;
 }
-#contact a:hover{
+
+#contact a:hover {
     top: 10px;
 }
 
-.last-things{
+.last-things {
     width: 90vw;
-    border-top: rgb(184, 58, 58) solid 2.5px; 
+    border-top: rgb(184, 58, 58) solid 2.5px;
     font-size: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 50px ;
+    padding: 20px 50px;
 }
 
-@media (max-width: 707px){
-    section div{
+@media (max-width: 707px) {
+    section div {
         width: 450px;
         margin: 10px;
         background: linear-gradient(45deg, rgb(33, 51, 49), rgb(17, 27, 26));
         padding-bottom: 20px;
         text-align: center;
     }
-    
-    section img{
+
+    section img {
         height: 350px;
         width: 450px;
         background: linear-gradient(45deg, rgb(33, 51, 49), rgb(17, 27, 26));
