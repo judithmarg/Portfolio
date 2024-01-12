@@ -2,10 +2,6 @@
     --salsa-font: 'Salsa', cursive;
 }
 
-@media (max-width: 787px){
-
-}
-
 #welcome-section{
     height: 100vh;
 }
@@ -76,7 +72,6 @@
 }
 
 section{
-    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -173,4 +168,20 @@ span{
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 50px ;
+}
+
+@media (max-width: 707px){
+    section div{
+        width: 450px;
+        margin: 10px;
+        background: linear-gradient(45deg, rgb(33, 51, 49), rgb(17, 27, 26));
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    section img{
+        height: 350px;
+        width: 450px;
+        background: linear-gradient(45deg, rgb(33, 51, 49), rgb(17, 27, 26));
+    }
 }
